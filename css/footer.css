@@ -1,0 +1,30 @@
+
+.gm-footer {
+    width: 100%;
+    height: 200px;
+
+    border-top: .05rem white;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+.gm-footer .gm-title {
+    font-size: 26px;
+}
+
+.gm-footer .gm-social {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gm-footer .gm-link {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gm-footer .gm-link:hover {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+}
