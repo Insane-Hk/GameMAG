@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+}
+
+a.title {
+    color:#262626;
+}
+
+a.title:hover {
+    text-decoration: none;
+    color:#444444;
+}
+
+.titre{
+    font-weight:lighter;
+}
+.lien:hover{
+    color: #444444;
+    border-bottom: solid 2px;
+}
+.lien.active{
+    border-bottom: solid 2px;
+}
+
+.lien{
+    padding:10px;
+    color:#262626;
+}
