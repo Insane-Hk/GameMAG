@@ -8,14 +8,14 @@ a.title {
 
 a.title:hover {
     text-decoration: none;
-    color:#444444;
+    color:#2e2e2e;
 }
 
 .titre{
     font-weight:lighter;
 }
 .lien:hover{
-    color: #444444;
+    color: #2e2e2e;
     border-bottom: solid 2px;
 }
 .lien.active{
@@ -25,4 +25,18 @@ a.title:hover {
 .lien{
     padding:10px;
     color:#262626;
+}
+
+.gm-title {
+    padding-top: 4px;
+}
+
+.gm-nav {
+    position: relative;
+    top: -16px;
+}
+
+header {
+    background-color: white;
+    height: 100px;
 }

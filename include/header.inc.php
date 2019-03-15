@@ -1,8 +1,8 @@
 <header>
-    <div class="container-fluid text-center">
+    <div class="gm-title container-fluid text-center">
         <a class="title" href="./index.php"><h1 class="align-center titre">GAME<strong>MAG</strong><h1></a>
     </div>
-    <div class="container text-center" style="font-family:'Fjalla one', sans-serif;">
+    <div class="gm-nav container text-center" style="font-family:'Fjalla one', sans-serif;">
         <nav class="Navbar-fluid">
             <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/articles.php") { ?>
             
@@ -16,9 +16,9 @@
             </a>
         
             <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/leaderboard.php") { ?>
-                <a class="navbar-brand lien active" href="#">
+                <a class="navbar-brand lien active" href="./leaderboard.php">
             <?php } else { ?>
-                <a class="navbar-brand lien" href="#">
+                <a class="navbar-brand lien" href="./leaderboard.php">
             <?php } ?>
 
                 <i class="fas fa-award" width="30" height="30" class="d-inline-block align-top" alt=""></i> &nbsp;

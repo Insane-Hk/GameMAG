@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f6f6f6;
+}
+
+h2 {
+    font-weight: 700;
+    color: black;
+}
+
+strong {
+    font-weight: 800;
+}
+
+.text-muted {
+    color: #717171;
+}
+
+.carousel {
+    max-height: 500px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    z-index: 99;
+}
+
+.carousel-inner {
+    object-fit: contain;
+}
+
+.carousel-item img {
+    position: relative;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.twitter-feed {
+    overflow-y: scroll;
+    max-height: 340px;
+}
