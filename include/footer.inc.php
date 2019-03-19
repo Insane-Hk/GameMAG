@@ -19,3 +19,5 @@
     <br>
     <p class="gm-rights text-muted">@2019 GameMAG. Tout droit réservés.</p>
 </footer>
+
+<a href="#" class="btn btn-primary scrollToBtn text-center shadow"><i class="fas fa-angle-up"></i></a>

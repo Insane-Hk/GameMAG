@@ -20,7 +20,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/include/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/include/footer.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -106,6 +105,7 @@
     </div>
 
     <?php include('include/footer.inc.php'); ?>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

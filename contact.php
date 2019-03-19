@@ -28,7 +28,7 @@
     <?php include('include/header.inc.php'); ?>
     <br>
 
-    <div class="row">
+    <div class="row mt-5">
         <div class="container col-md-5">
             <div class="my-3 p-3 bg-white rounded shadow">
                 <h5 class="border-bottom border-gray pb-2 mb-0">Formulaire de contact</h6>
@@ -60,7 +60,7 @@
                                 required></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-success">Envoyer</button>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
                     </form>
             </div>
         </div>

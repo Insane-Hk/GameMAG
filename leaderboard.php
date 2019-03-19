@@ -20,13 +20,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/include/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/include/footer.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <script src="js/script.js"></script>
 </head>
 
 <body>
     <?php include('include/header.inc.php'); ?>
 
-    <div class="container-fluid">
+    <div class="container-fluid mt-5 mb-5">
         <div class="container col-8 col-offset-2 mt-3">
             <div class="card op col-12 ">
                 <div class='container-fluid row'>
@@ -287,6 +286,7 @@
     </div>
 
     <?php include('include/footer.inc.php'); ?>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
