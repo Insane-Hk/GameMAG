@@ -1,38 +1,48 @@
-<header>
-    <div class="gm-title container-fluid text-center">
-        <a class="title" href="./index.php"><h1 class="align-center titre">GAME<strong>MAG</strong><h1></a>
-    </div>
-    <div class="gm-nav container text-center" style="font-family:'Fjalla one', sans-serif;">
-        <nav class="Navbar-fluid">
+<?php 
+    echo $_SERVER['SCRIPT_NAME'];
+?>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="./index.php">GAME<strong>MAG</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-x"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse-x">
+        <ul class="navbar-nav ml-auto mr-5">
             <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/articles.php") { ?>
-            
-                <a class="navbar-brand lien active" href="#">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./articles.php"><i class="fas fa-newspaper"></i> &nbsp;Articles</a>
+                </li>
             <?php } else { ?>
-                <a class="navbar-brand lien" href="#">
+                <li class="nav-item">
+                    <a class="nav-link" href="./articles.php"><i class="fas fa-newspaper"></i> &nbsp;Articles</a>
+                </li>
             <?php } ?>
-
-                <i class="fas fa-newspaper" width="30" height="30" class="d-inline-block align-top" alt=""></i> &nbsp;
-                Article
-            </a>
-        
             <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/leaderboard.php") { ?>
-                <a class="navbar-brand lien active" href="./leaderboard.php">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./leaderboard.php"><i class="fas fa-award"></i> &nbsp;Classement</a>
+                </li>
             <?php } else { ?>
-                <a class="navbar-brand lien" href="./leaderboard.php">
+                <li class="nav-item">
+                    <a class="nav-link" href="./leaderboard.php"><i class="fas fa-award"></i> &nbsp;Classement</a>
+                </li>
             <?php } ?>
-
-                <i class="fas fa-award" width="30" height="30" class="d-inline-block align-top" alt=""></i> &nbsp;
-                Classement
-            </a>
-
             <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/videos.php") { ?>
-                <a class="navbar-brand lien active" href="#">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./videos.php"><i class="fas fa-video"></i> &nbsp;Vidéos</a>
+                </li>
             <?php } else { ?>
-                <a class="navbar-brand lien" href="#">
+                <li class="nav-item">
+                    <a class="nav-link" href="./videos.php"><i class="fas fa-video"></i> &nbsp;Vidéos</a>
+                </li>
             <?php } ?>
-                <i class="fas fa-video" width="30" height="30" class="d-inline-block align-top" alt=""></i>
-                &nbsp; Vidéos
-            </a>
-        </nav>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link search" href="./index.php"><i class="fas fa-search"></i></a>
+            </li>
+        </ul>
     </div>
-</header>
+</nav>

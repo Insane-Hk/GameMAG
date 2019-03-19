@@ -20,12 +20,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/include/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/include/footer.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <script src="js/script.js"></script>
 </head>
 
 <body>
     <?php include('include/header.inc.php'); ?>
-
+    
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -76,45 +75,53 @@
 
     <div class="row mx-5">
         <div class="col-sm-3">
-            <div class="card shadow" style="width: 18rem;">
-                <img src="./img/games/anthem.jpeg" class="card-img-top">
+            <div class="card shadow h-75" style="width: 18rem;">
+                <img src="./img/games/td2-artwork.jpeg" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Titre de l'article</h5>
+                    <h5 class="card-title">The Division 2</h5>
                     <p class="card-text"><span class="badge badge-primary">NOUVEAU</span> <span class="badge badge-success">PREVIEW</span></p>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-footer">
                     <a href="#" class="btn btn-primary btn-block">Voir l'article</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-3">
-            <div class="card shadow" style="width: 18rem;">
-                <img src="./img/games/anthem.jpeg" class="card-img-top">
+            <div class="card shadow h-75" style="width: 18rem;">
+                <img src="./img/articles/dbd_dlc.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Titre de l'article</h5>
+                    <h5 class="card-title">Dead by Daylight</h5>
                     <p class="card-text"><span class="badge badge-danger">DLC</span></p>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-footer">
                     <a href="#" class="btn btn-primary btn-block">Voir l'article</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-3">
-            <div class="card shadow" style="width: 18rem;">
+            <div class="card shadow h-75" style="width: 18rem;">
                 <img src="./img/games/anthem.jpeg" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Titre de l'article</h5>
-                    <p class="card-text"><span class="badge badge-info">INFORMATION</span></p>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h5 class="card-title">Anthem</h5>
+                    <p class="card-text"><span class="badge badge-info">INFORMATION</span> <span class="badge badge-dark">DRAMA</span></p>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                </div>
+                <div class="card-footer">
                     <a href="#" class="btn btn-primary btn-block">Voir l'article</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-3">
-            <div class="card shadow" style="width: 18rem;">
-                <img src="./img/games/anthem.jpeg" class="card-img-top">
+            <div class="card shadow h-75" style="width: 18rem;">
+                <img src="./img/articles/cgs.png" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Titre de l'article</h5>
+                    <h5 class="card-title">Corolo Game Show</h5>
                     <p class="card-text"><span class="badge badge-warning">ALERTE</span></p>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-footer">
                     <a href="#" class="btn btn-primary btn-block">Voir l'article</a>
                 </div>
             </div>
@@ -164,6 +171,7 @@
     <?php include('include/footer.inc.php'); ?>
 
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

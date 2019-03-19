@@ -31,7 +31,6 @@
             <div class="card op col-12 ">
                 <div class='container-fluid row'>
                     <div class='col-3'>
-
                         <img class="card-img-left col-12" src='./img/leaderboard/GameBox.jpg'>
                     </div>
                     <div class='col-7 text-dark'>
