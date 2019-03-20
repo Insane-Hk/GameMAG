@@ -25,12 +25,13 @@
 <body>
     <?php include('include/header.inc.php'); ?>
 
-    <div class="container-fluid mt-5 mb-5">
-        <div class="container col-8 col-offset-2 mt-3">
+    <div class="container-fluid leaderboard">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12 ">
-                <div class='container-fluid row'>
+                <div class='container-fluid row shadow'>
                     <div class='col-3'>
-                        <img class="card-img-left col-12" src='./img/leaderboard/GameBox.jpg'>
+
+                        <img class="card-img-left  image img-fluid" src='./img/leaderboard/GameBox.jpg'>
                     </div>
                     <div class='col-7 text-dark'>
 
@@ -49,12 +50,12 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12">
-                <div class='container-fluid row'>
+                <div class='container-fluid row shadow'>
                     <div class='col-3'>
 
-                        <img class="card-img-left  col-12" src='./img/leaderboard/apex.jpeg'>
+                        <img class="card-img-left image img-fluid " src='./img/leaderboard/apex.jpeg'>
                     </div>
                     <div class='col-7  text-dark'>
                     
@@ -74,14 +75,14 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12">
-                <div class='container-fluid col-12 row'>
+                <div class='container-fluid col-12 row shadow'>
                     <div class='col-3'>
-                        <br>
-                        <img class="card-img-left col-12" src='./img/leaderboard/minecraft.png'>
+
+                        <img class="card-img-left image img-fluid" src='./img/leaderboard/minecraft.png'>
                         </div>
-                        <div class='col-7 bg-light text-dark'>
+                        <div class='col-7 text-dark'>
                        
                             <h3 class="
                             card-title ">Minecraft</h3>
@@ -101,14 +102,14 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12">
-                <div class='container-fluid col-12 row'>
+                <div class='container-fluid row shadow'>
                     <div class='col-3'>
-                        <br>
-                        <img class="card-img-left col-12" src='./img/leaderboard/gta.jpg'>
+
+                        <img class="card-img-left image img-fluid " src='./img/leaderboard/gta.jpg'>
                     </div>
-                    <div class='col-7 bg-light text-dark'>
+                    <div class='col-7 text-dark'>
 
                         <h3 class="card-title ">Grand Theft Auto V</h3>
                         <p class="card-text texte">Some quick example text to build on the card title and make up the
@@ -127,14 +128,14 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12">
-                <div class='container-fluid col-12 row'>
+                <div class='container-fluid col-12 row shadow'>
                     <div class='col-3'>
-                        <br>
-                        <img class="card-img-left col-12" src='./img/leaderboard/warframe.png'>
+
+                        <img class="card-img-left image img-fluid " src='./img/leaderboard/warframe.png'>
                     </div>
-                    <div class='col-7 bg-light text-dark'>
+                    <div class='col-7 text-dark'>
 
                         <h3 class="card-title ">Warframe</h3>
                         <p class="card-text texte">Some quick example text to build on the card title and make up the
@@ -153,14 +154,14 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12">
-                <div class='container-fluid col-12 row'>
+                <div class='container-fluid col-12 row shadow'>
                     <div class='col-3'>
-                        <br>
-                        <img class="card-img-left col-12" src='./img/leaderboard/destiny.jpg'>
+
+                        <img class="card-img-left image img-fluid " src='./img/leaderboard/destiny.jpg'>
                     </div>
-                    <div class='col-7 bg-light text-dark'>
+                    <div class='col-7 text-dark'>
 
                         <h3 class="card-title ">Destiny 2</h3>
                         <p class="card-text texte">Some quick example text to build on the card title and make up the
@@ -179,14 +180,14 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12">
-                <div class='container-fluid col-12 row'>
+                <div class='container-fluid col-12 row shadow'>
                     <div class='col-3'>
-                        <br>
-                        <img class="card-img-left col-12" src='./img/leaderboard/Anthem.jpg'>
+
+                        <img class="card-img-left image img-fluid " src='./img/leaderboard/Anthem.jpg'>
                     </div>
-                    <div class='col-7 bg-light text-dark'>
+                    <div class='col-7 text-dark'>
 
                         <h3 class="card-title ">Anthem</h3>
                         <p class="card-text texte">Some quick example text to build on the card title and make up the
@@ -205,14 +206,14 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12">
-                <div class='container-fluid col-12 row'>
+                <div class='container-fluid col-12 row shadow'>
                     <div class='col-3'>
-                        <br>
-                        <img class="card-img-left col-12" src='./img/leaderboard/Fortnite-Android-976151.jpg'>
+
+                        <img class="card-img-left image img-fluid " src='./img/leaderboard/fortnite.png'>
                     </div>
-                    <div class='col-7 bg-light text-dark'>
+                    <div class='col-7 text-dark'>
 
                         <h3 class="card-title ">Fortnite</h3>
                         <p class="card-text texte">Some quick example text to build on the card title and make up the
@@ -223,7 +224,7 @@
                         <div class='col-12'>
                             <br>
                             <br>
-                            <h3 class="card-subtitle rang "><i class="fas fa-trophy"></i> 8ème</h3>
+                            <h3 class="card-subtitle rang "><i class="fas fa-trophy"></i> 8</h3>
                             <br>
                             <h1 class="note badge badge-success" style="font-size:1.2em;">8.0/10</h1>
                         </div>
@@ -231,14 +232,14 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5">
             <div class="card op col-12">
-                <div class='container-fluid col-12 row'>
+                <div class='container-fluid col-12 row shadow'>
                     <div class='col-3'>
-                        <br>
-                        <img class="card-img-left col-12" src='./img/leaderboard/dofus.jpg'>
+
+                        <img class="card-img-left image img-fluid " src='./img/leaderboard/dofus.jpg'>
                     </div>
-                    <div class='col-7 bg-light text-dark'>
+                    <div class='col-7 text-dark'>
 
                         <h3 class="card-title ">Dofus</h3>
                         <p class="card-text texte">Some quick example text to build on the card title and make up the
@@ -249,7 +250,7 @@
                         <div class='col-12'>
                             <br>
                             <br>
-                            <h3 class="card-subtitle rang "><i class="fas fa-trophy"></i> 9ème</h3>
+                            <h3 class="card-subtitle rang "><i class="fas fa-trophy"></i> 9</h3>
                             <br>
                             <h1 class="note badge badge-success" style="font-size:1.2em;">7.8/10</h1>
                         </div>
@@ -257,14 +258,14 @@
                 </div>
             </div>
         </div>
-        <div class="container col-8 col-offset-2 mt-3">
+        <div class="container col-8 col-offset-2 mt-5 mb-5">
             <div class="card op col-12">
-                <div class='container-fluid col-12 row'>
+                <div class='container-fluid image img-fluid col-12 row shadow'>
                     <div class='col-3'>
-                        <br>
-                        <img class="card-img-left col-12" src='./img/leaderboard/RDR2-online-beta-big.jpg'>
+
+                        <img class="card-img-left image img-fluid" src='./img/leaderboard/RDR2-online-beta-big.jpg'>
                     </div>
-                    <div class='col-7 bg-light text-dark'>
+                    <div class='col-7 text-dark'>
 
                         <h3 class="card-title ">Red Dead Redemption 2</h3>
                         <p class="card-text texte">Some quick example text to build on the card title and make up the
@@ -275,7 +276,7 @@
                         <div class='col-12'>
                             <br>
                             <br>
-                            <h3 class="card-subtitle rang "><i class="fas fa-trophy"></i> 10ème</h3>
+                            <h3 class="card-subtitle rang "><i class="fas fa-trophy"></i> 10</h3>
                             <br>
                             <h1 class="note badge badge-success" style="font-size:1.2em;">7.6/10</h1>
                         </div>
@@ -283,6 +284,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 
     <?php include('include/footer.inc.php'); ?>

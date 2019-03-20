@@ -47,3 +47,13 @@ strong {
     color: black;
     font-family: 'Roboto', sans-serif;
 }
+
+.image{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.leaderboard .card {
+    height: fit-content;
+    max-height: 250px;
+}

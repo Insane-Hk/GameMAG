@@ -31,3 +31,7 @@ body {
 .navbar-toggler {
     border: none;
 }
+
+.progress {
+    margin-top: 1px !important;
+}

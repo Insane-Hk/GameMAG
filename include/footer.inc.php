@@ -11,10 +11,11 @@
     </div>
     <br>
     <div class="row justify-content-center">
-        <a class="gm-link" href="#">Articles</a>
-        <a class="gm-link" href="#">Classement</a>
-        <a class="gm-link" href="#">Vidéos</a>
+        <a class="gm-link" href="./article.php">Article</a>
+        <a class="gm-link" href="./leaderboard.php">Classement</a>
+        <a class="gm-link" href="./videos.php">Vidéos</a>
         <a class="gm-link" href="./contact.php">Contact</a>
+        <a class="gm-link" href="./about.php">A Propos</a>
     </div>
     <br>
     <p class="gm-rights text-muted">@2019 GameMAG. Tout droit réservés.</p>

@@ -11,31 +11,31 @@
 
     <div class="collapse navbar-collapse" id="navbar-collapse-x">
         <ul class="navbar-nav ml-auto mr-5">
-            <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/articles.php") { ?>
+            <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/article.php") { ?>
                 <li class="nav-item active">
-                    <a class="nav-link" href="./articles.php"><i class="fas fa-newspaper"></i> &nbsp;Articles</a>
+                    <a class="nav-link" href="./article.php"><i class="fas fa-newspaper"></i> &nbsp;ARTICLE</a>
                 </li>
             <?php } else { ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="./articles.php"><i class="fas fa-newspaper"></i> &nbsp;Articles</a>
+                    <a class="nav-link" href="./article.php"><i class="fas fa-newspaper"></i> &nbsp;ARTICLE</a>
                 </li>
             <?php } ?>
             <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/leaderboard.php") { ?>
                 <li class="nav-item active">
-                    <a class="nav-link" href="./leaderboard.php"><i class="fas fa-award"></i> &nbsp;Classement</a>
+                    <a class="nav-link" href="./leaderboard.php"><i class="fas fa-award"></i> &nbsp;CLASSEMENT</a>
                 </li>
             <?php } else { ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="./leaderboard.php"><i class="fas fa-award"></i> &nbsp;Classement</a>
+                    <a class="nav-link" href="./leaderboard.php"><i class="fas fa-award"></i> &nbsp;CLASSEMENT</a>
                 </li>
             <?php } ?>
             <?php if($_SERVER['SCRIPT_NAME']=="/gameMAG/videos.php") { ?>
                 <li class="nav-item active">
-                    <a class="nav-link" href="./videos.php"><i class="fas fa-video"></i> &nbsp;Vidéos</a>
+                    <a class="nav-link" href="./videos.php"><i class="fas fa-video"></i> &nbsp;VIDÉOS</a>
                 </li>
             <?php } else { ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="./videos.php"><i class="fas fa-video"></i> &nbsp;Vidéos</a>
+                    <a class="nav-link" href="./videos.php"><i class="fas fa-video"></i> &nbsp;VIDÉOS</a>
                 </li>
             <?php } ?>
         </ul>
@@ -44,5 +44,8 @@
                 <a class="nav-link search" href="./index.php"><i class="fas fa-search"></i></a>
             </li>
         </ul>
+    </div>
+    <div class="progress fixed-top" style="height: 3px;">
+        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
 </nav>
