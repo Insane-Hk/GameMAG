@@ -57,3 +57,7 @@ strong {
     height: fit-content;
     max-height: 250px;
 }
+
+.information{
+    font-size: 15px;
+}
